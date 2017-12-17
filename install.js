@@ -14,7 +14,7 @@ var util = require('util')
 var md5file = require('md5-file')
 
 var libPath = path.join(__dirname, 'lib', 'edgedriver')
-var downloadUrl = 'https://download.microsoft.com/download/1/4/1/14156DA0-D40F-460A-B14D-1B264CA081A5/MicrosoftWebDriver.exe'
+var downloadUrl = 'https://download.microsoft.com/download/D/4/1/D417998A-58EE-4EFE-A7CC-39EF9E020768/MicrosoftWebDriver.exe'
 var platform = process.platform
 
 if (platform !== 'win32') {
